@@ -1,0 +1,34 @@
+body {background-color: #0f0000;}
+@keyframes color{from{background-color:magenta;}
+to{background-color:yellow;}}
+
+#am {color: black; font-family: Arial; font-weight: bold; 
+background-color: yellow; height:200px; width: 200px; text-align:center;
+animation-name: color; animation-duration:5s;
+}
+
+@keyframes color2{from{background-color:#blue;}
+to{background-color:cyan;}}
+
+#cv {color: black; font-family: Arial; font-weight: bold; 
+background-color: cyan; height:200px; width:200px; text-align:center;
+animation-name:color2;animation-duration:5s;}
+
+@keyframes color3{from{background-color:yellow;}
+to{background-color:magenta;}}
+
+#c {color: black; font-family: Arial; font-weight: bold; 
+background-color: magenta; height:200px; width:200px; text-align:center;
+animation-name:color3;animation-duration:5s;}
+
+a{text-decoration:none;color:black;}
+a:link{text-decoration:none;color:black;}
+a:visited{text-decoration:black;}
+a:hover{text-decoration:none; color:green;}
+
+@keyframes color4{from{background-color:cyan;}
+to{background-color:#blue;}}
+#welcome{margin-top: 0px; background-color:#4690d4; color:white;font-family:Arial;b
+order-radius:5px; font-weight:bold;height:200px;width:900px;
+text-align:center;float:right;
+animation-name:color4;animation-duration:5s;}
